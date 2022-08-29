@@ -1,5 +1,8 @@
+
 public class Main {
-    public static void main(String[] args) {
-        System.out.println("Hello world!!!");
+    public static void main(String[] args) throws WrongLogicException, WrongPasswordException {
+
+        Register register = new Register("UserName", "123456QWERTY", "123456QWERTY");
+        System.out.println(register);
     }
 }
