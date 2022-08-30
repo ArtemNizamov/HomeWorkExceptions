@@ -1,5 +1,6 @@
-public class WrongLogicException extends Throwable {
+public class WrongLogicException extends Exception {
+
     public WrongLogicException(String message) {
-        super();
+        super(message);
     }
 }
